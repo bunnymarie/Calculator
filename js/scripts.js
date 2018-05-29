@@ -42,3 +42,12 @@ var number1 = parseInt(prompt ("Enter a number:"));
 var number2 = parseInt(prompt ("Enter another number:"));
 var result = remainder(number1, number2);
 alert(result);
+
+var bmi = function(weight, height) {
+  return weight / (height*height) * 703;
+};
+
+var weight = parseInt(prompt ("Enter weight in lbs:"));
+var height = parseInt(prompt ("Enter height in inches:"));
+var result = bmi(weight, height);
+alert(result);
